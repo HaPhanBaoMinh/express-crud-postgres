@@ -1,3 +1,5 @@
+# express-crud-postgres
+
 CREATE TABLE items (
   id SERIAL PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
@@ -15,4 +17,4 @@ INSERT INTO items (name, description) VALUES
 ('Item 8', 'This is the description for Item 8.'),
 ('Item 9', 'This is the description for Item 9.'),
 ('Item 10', 'This is the description for Item 10.');
-# express-crud-postgres
+
